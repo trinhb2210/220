@@ -1,6 +1,6 @@
 """
 Name : Belinda Trinh
-interest.py
+calculate.py
 Problem: This program calculates the monthly interest charge
 Certification of Authenticity
 I certify that this assignment is entirely my own work
@@ -9,8 +9,6 @@ I certify that this assignment is entirely my own work
 
 
 def main():
-    print("this program computes the monthly interest charge on a credit card account:")
-    print()
     interest = float(input("Enter the annual interest rate:"))
     days = eval(input("Enter the number of days in the billing cycle: "))
     previous_balance = eval(input("Enter the previous (net) balance: "))
@@ -25,4 +23,6 @@ def main():
     monthly_interest_rate = interest/12 * (1/100)
     monthly_interest_charges = average_daily_balance * monthly_interest_rate
     print(monthly_interest_charges)
+if __name__ == '__main__':
     main()
+
