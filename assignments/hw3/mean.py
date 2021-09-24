@@ -20,12 +20,14 @@ def main():
 
     acc=0
     for i in range(1, x +1):
+        y = eval(input("Enter your value: "))
         acc = acc + (1 / y)
     harmonic_mean = x / acc
     print(round(harmonic_mean,3))
 
     acc=1
     for i in range(1,x +1):
+        y = eval(input("Enter your value: "))
         acc = acc * y
     geometric_mean= math.pow(acc, 1/x)
     print(round(geometric_mean,3))
