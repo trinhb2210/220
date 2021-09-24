@@ -1,23 +1,19 @@
 """"
 Name : Belinda Trinh
-calculate.py
-Problem: a place to play with chpater 4 material
+chapter4.py
+Problem: a place to play with chapter 4 material
 Certification of Authenticity
 I certify that this assignment is entirely my own work
 
 """
 from graphics import *
+import math
+import statistics
 
+def main():
+    win = GraphWin("celsius converter", 500, 500)
+    win.setCoords(0, 0, 10, 10)
+    celsius_temp_text = 6
 
+    x1y1=winGetMouse()
 
-win = GraphWin("My Window", 700, 500)
-
-pointA= Point(350, 250)
-pointB= Point(100, 50)
-
-circle A = Circle(point A, 50)
-
-pointA.draw(win)
-pointB.draw(win)
-
-circle A= Circle(pointA, 50)

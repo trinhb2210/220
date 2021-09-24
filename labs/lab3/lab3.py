@@ -12,7 +12,7 @@ def average():
         acc=acc+score
     acc=acc/x
     print(acc)
-
+#
 def tip_jar():
     acc=0
     for i in range (0,5):
@@ -32,7 +32,7 @@ def sequence():
     x= eval(input("enter the number of terms "))
     for x in range (1,x+1):
         y=1+(x // 2 * 2)
-        print(y)
+        print(y, end="")
 def pi():
     n= eval(input("enter the number of terms "))
     acc=1
