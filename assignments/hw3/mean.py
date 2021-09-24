@@ -24,6 +24,11 @@ def main():
     harmonic_mean = x / acc
     print(round(harmonic_mean,3))
 
+    acc=1
+    for i in range(1,x +1):
+        acc = acc * y
+    geometric_mean= math.pow(acc, 1/x)
+    print(round(geometric_mean,3))
 
 
 
