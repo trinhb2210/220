@@ -9,21 +9,21 @@ import math
 
 
 def main():
-    n = eval(input("Number of values to be entered: "))
-    for i in range(1, n + 1):
-        y = eval(input("Enter your value: "))
     acc = 0
-    for i in range(0, n - 1 + 1,1):
+    x = eval(input("Number of values to be entered: "))
+    for i in range(1, x + 1):
+        y = eval(input("Enter your value: "))
         acc = acc + (y * y)
-    mean = float(acc) / n
+    mean = float(acc) / x
     rms_average = math.sqrt(mean)
     print(round(rms_average, 3))
 
     acc=0
-    for n in range(1, n+1):
+    for i in range(1, x +1):
         acc = acc + (1 / y)
-    harmonic_mean = float(n) / acc
+    harmonic_mean = x / acc
     print(round(harmonic_mean,3))
+
 
 
 
