@@ -6,6 +6,7 @@ Certification of Authenticity
 I certify that this assignment is entirely my own work
 
 """
+
 from graphics import *
 
 win = GraphWin("My Window",700, 500)

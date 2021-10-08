@@ -45,7 +45,7 @@ def squares():
         shape.setOutline("red")
         shape.setFill("red")
         shape.draw(win)
-    inst_pt = Point(width / 2, 10)
+    inst_pt = Point(width / 2, 15)
     instructions = Text(inst_pt, "Click again to quit")
     instructions.draw(win)
 
