@@ -1,7 +1,7 @@
 """
 Name: <Belinda Trinh>
 Partner: <your partner's name goes here – first and last>
-<lab6>.py
+<lab7>.py
 """
 import math
 
