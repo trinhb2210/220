@@ -38,7 +38,10 @@ def encode_better():
     acc = ""
     for i in range(len(m)):
         c = ord(m[i])
-        key = (ord(k[i])
+        key =ord(k[i])
+        acc+=chr(c + key)
+        print(acc)
+
 
 
 
