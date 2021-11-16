@@ -4,20 +4,11 @@ hello.py
 Problem: print Hello,world! to the screen
 Certification of Authenticity
 I certify that this assignment is entirely my own work
-
+Write the function weighted_average(in_file_name, out_file_name). This function accepts parameters that are strings relating to the input file’s name and the output file’s name.   This function should compute and output to the output file each student's average, using the formula given above.
 """
 import math
 
-def main():
-    print("This program calculates the root of a quadratic equation")
-    print()
-
-    a, b, c = eval(input("enter the coefficient og the quadratic function: "))
-    disc_root = math.sqrt(b ** 2 - 4 * a * c)
-    root1 = (-b + disc_root) / (2 * a)
-    root2 = (-b - disc_root) / (2 * a)
-
-    print("the roots are", root1, root2)
+Write the function weighted_average(in_file_name, out_file_name). This function accepts parameters that are strings relating to the input file’s name and the output file’s name.   This function should compute and output to the output file each student's average, using the formula given above. It should also output the overall average. Format all averages to one decimal place. Note that when calculating the overall average, m    print("the roots are", root1, root2)
 
 if __name__=='__main__':
     main()
